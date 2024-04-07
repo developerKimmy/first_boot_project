@@ -5,10 +5,10 @@ public class GameRunner {
     // I have added static key word to variable.
     // which solved the error, but I have no idea why it caused such error and why it has fixed...
 
-    private static MarioGame game;
+    private static SuperContraGame game;
     // private MarioGame game
 
-    public GameRunner(MarioGame game){
+    public GameRunner(SuperContraGame game){
         this.game = game;
     }
 
