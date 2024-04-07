@@ -16,7 +16,15 @@ public class App02HelloWorldSpring {
         System.out.println(context.getBean("age"));
 
         System.out.println(context.getBean("person"));
-        System.out.println(context.getBean("address"));
 
+        // because I have changed the name of bean to address2
+//        System.out.println(context.getBean("address")); // No bean named 'address' available
+        System.out.println(context.getBean("address2"));
+        // looking for type of the class
+//        System.out.println(context.getBean(Address.class));
+
+        System.out.println("Person2 : " + context.getBean("person2MethodCall"));
+
+        System.out.println(context.getBean("person3Parameters"));
     }
 }
