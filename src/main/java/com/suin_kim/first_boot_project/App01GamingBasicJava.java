@@ -1,11 +1,9 @@
 package com.suin_kim.first_boot_project;
 
 import com.suin_kim.first_boot_project.game.GameRunner;
-import com.suin_kim.first_boot_project.game.MarioGame;
 import com.suin_kim.first_boot_project.game.Pacman;
-import com.suin_kim.first_boot_project.game.SuperContraGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[]arg){
         // var: allows user to declare variable without specifying its type
         // to import class, press alt and enter (alt + enter)
