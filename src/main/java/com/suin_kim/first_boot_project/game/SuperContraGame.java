@@ -1,6 +1,6 @@
 package com.suin_kim.first_boot_project.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements GamingConsole{
     public void up(){
         System.out.println("Up");
     }

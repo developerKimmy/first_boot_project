@@ -1,6 +1,6 @@
 package com.suin_kim.first_boot_project.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
 
     // sout + tab = System.out.println()
 
