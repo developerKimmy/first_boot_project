@@ -1,4 +1,4 @@
-package com.suin_kim.first_boot_project;
+package com.suin_kim.first_boot_project.helloworld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
